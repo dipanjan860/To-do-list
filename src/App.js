@@ -27,7 +27,6 @@ function App() {
   };
 
   const addTodoHandler = (item) => {
-    // console.log(item);
     setTodos(
       [
         ...todos,
