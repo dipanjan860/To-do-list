@@ -6,7 +6,6 @@ import Todo from './components/Todo';
 function App() {
   const getLocalTasks = () => {
     let task = localStorage.getItem("tasks");
-    // console.log(task);
     if(task){
       return JSON.parse(localStorage.getItem("tasks"));
     }
